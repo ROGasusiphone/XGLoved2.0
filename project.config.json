@@ -1,0 +1,94 @@
+{
+  "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": true,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": false,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "lazyloadPlaceholderEnable": false,
+    "useStaticServer": true,
+    "showES6CompileOption": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "minifyWXML": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.19.0",
+  "appid": "wx352c5df3088483df",
+  "projectname": "%E6%A0%A1%E5%9B%AD%E5%B0%8F%E6%83%85%E4%B9%A6",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "卖舍友",
+          "pathName": "pages/sale/index/sale",
+          "query": ""
+        },
+        {
+          "name": "发表卖舍友",
+          "pathName": "pages/sale/post_sale/post_sale",
+          "query": ""
+        },
+        {
+          "name": "表白",
+          "pathName": "pages/index/post/post",
+          "query": ""
+        },
+        {
+          "name": "情侣脸",
+          "pathName": "pages/compare_face/face",
+          "query": ""
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/personal/index/personal",
+          "query": ""
+        },
+        {
+          "name": "卖舍友详情",
+          "pathName": "pages/sale/comment_sale/comment_sale",
+          "query": "id=142"
+        }
+      ]
+    }
+  },
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

@@ -1,0 +1,225 @@
+page{
+  background-color: #F5F5F5;
+  padding: 0rpx;
+  margin: 0rpx;
+}
+
+.personal-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-container .bg-container{
+  width: 100%;
+  height: 550rpx;
+}
+
+.bg-image image{
+  width: 100%;
+  height: 400rpx;
+}
+.bg-container .user-info{
+  width: 100%;
+  height: 150rpx;
+  background: #FFE7BA;
+  margin-top: -10rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.article{
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  height: 80rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.letter{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20rpx;
+  align-items: center;
+}
+
+.word{
+  margin-left: 20rpx;
+
+}
+
+.letter image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 5rpx;
+}
+
+.bg-container .user-image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 80rpx;
+  z-index: 10;
+  position: absolute;
+  margin-top: -90rpx;
+  margin-left: 50rpx;
+  border-style:solid;
+  border-width:8rpx;
+  border-color: white;
+}
+
+.user-info{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 35rpx;
+}
+
+.user-info .user-name{
+  margin-top: 80rpx;
+  width: 35%;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+
+.content-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message{
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+  margin-top: 15rpx;
+}
+
+.content-item{
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+}
+
+.item-image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 15rpx;
+  margin-left: 30rpx;
+}
+
+.word{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+
+.content-container{
+  width: 100%;
+  background: white;
+  margin-top: 15rpx;
+}
+
+.content-container .say-love{
+  border-bottom-style:solid;
+  border-width:1rpx;
+  border-color: #EEE9E9;
+}
+
+.content-container .sale{
+  border-bottom-style:solid;
+  border-width:1rpx;
+  border-color: #EEE9E9;
+}
+
+.update-info{
+  position: fixed;
+  z-index: 200;
+  top: 20rpx;
+  left: 20rpx;
+  font-size: 25rpx;
+  padding-bottom: 20rpx;
+  border-style:solid;
+  border-width:1rpx;
+  border-color: #66CDAA;
+  color: #66CDAA;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+
+.author{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25rpx;
+  margin-top: 50rpx;
+  color: gainsboro;
+}
+.login button{
+  background: #66CDAA;
+  color: white;
+}
+
+
+.A{ height: 100rpx;
+   margin-top: 20rpx;
+  margin-left:20rpx;
+}
+.myView {
+    font-size: 35rpx;
+    margin: 20rpx;
+  }
+  .ke-fu {
+    width: 12%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 250rpx;
+    text-align: center;
+    z-index: 2;
+    border: 1px solid #f4ebde;
+    border-radius: 50%;
+    margin-left: 85%;
+    height: 90rpx;
+    background: #f4ebde;
+    box-shadow: 2rpx 5rpx 10rpx 5rpx #DBD7D5;
+  }
+  
+  .kefu-img {
+    width: 50rpx;
+    height: 50rpx;
+    
+  }
+  
+  .kf-kf {
+    vertical-align: top;
+    margin-top: -50rpx;
+    font-size: 22rpx;
+    color: #BA9A84;
+  }
+  
+  button {
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.55555556;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  button::after {
+    content: none;
+  }
+  

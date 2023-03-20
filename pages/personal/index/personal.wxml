@@ -1,0 +1,52 @@
+<view class="personal-container">
+
+  <view class="bg-container">
+      <view class='bg-image'>
+        <image mode="aspectFill" src='https://www.sjziei.edu.cn/images/xyfg/02.png'></image>
+      </view>
+      <view>
+        <image wx:if="{{!showLoginButton}}" class='user-image' src='{{user.avatar}}'></image>
+      </view>
+      <view class='user-info'>
+          <view wx:if="{{!showLoginButton}}" class='user-name'>{{user.nickname}}</view>
+          <view class='article'>
+            <view class="word">爱情属于勇敢的信工人</view>
+            <view class="login" wx:if="{{showLoginButton}}">
+              <button bindtap="getAuthUserInfo">登录</button>
+            </view>
+          </view>
+      </view>
+  </view>
+
+  <view class='message' bindtap='openMessage'>
+    <view><image src='/image/my-message.png' class='item-image'></image></view>
+    <view class='word'>消息</view>
+  </view>
+
+  <view class='content-container'>
+    <view class='content-item say-love' bindtap="opendPostList">
+      <view><image src='/image/color-love.png' class='item-image'></image></view>
+      <view class='word'>表白墙</view>
+    </view>
+    <view class='content-item sale' bindtap="openSaleList">
+      <view><image src='/image/select-sale.png' class='item-image'></image></view>
+      <view class='word'>卖舍友</view>
+    </view>
+  </view>
+  
+  <view>
+    <button class="ke-fu" open-type="contact" bindcontact="handleContact">
+<!-- img是你们的图片 -->
+  <image class="kefu-img" src="/image/wechat-logo.png"></image>
+  <view class="kf-kf">客服</view>
+</button>
+<view class='myView'>你的专属恋爱师 人工客服:
+<contact-button class='A' type="default-dark" size="0" session-from="weapp">
+</contact-button>
+</view>
+</view>
+  <view class='author'>
+    <view>power_by XGLove</view>
+  </view>
+
+</view>

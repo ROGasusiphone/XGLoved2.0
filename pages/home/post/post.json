@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "表白墙",
+  "usingComponents": {
+    "upload": "plugin://uploadPlugins/upload"
+  }
+}

@@ -1,0 +1,46 @@
+<view class='post-container container'>
+  <view class='form'>
+
+    <view class='input'>
+      <textarea 
+        maxlength="1024"
+        value='{{copyData}}'
+        class='textarea-content'
+        placeholder=""    
+        bindinput="getTextContent"/>
+    </view>
+    <view class='image-form'>
+      <upload icon-info="{{icon}}" 
+              qiniu-info="{{qiniu}}"  
+              bind:success="uploadSuccess" 
+              bind:delete="deleteSuccess"
+              bind:error="uploadError"/>
+    </view>  
+  </view>
+
+<view class='middle'>
+  <view class='location'>
+    <view class='like-word'>我喜欢</view>
+    <input class='like-content' 
+           placeholder="专业+姓名" 
+           bindinput="getName"/>
+  </view>
+  <view class='location'>
+    <view class='like-word'>手机</view>
+    <input class='like-content' 
+           placeholder="Ta的手机号码（选填）" 
+           bindinput="getPhone"/>
+  </view>
+  <view class='private'>
+    <view class='item'>树洞</view>
+    <switch bindchange="setPrivate" color='#0aecc3'/>
+  </view>
+</view>
+
+  <view class='button-container'>
+    <button bindtap='post' disabled='{{!canPost}}'> 发表 </button>
+  </view>
+</view>
+<view class='tips' >
+    <view class='warming'></view>
+</view>
